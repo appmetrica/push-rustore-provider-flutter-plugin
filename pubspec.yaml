@@ -1,0 +1,30 @@
+name: appmetrica_push_rustore_provider_plugin
+description: A Flutter plugin for RuStore provider for AppMetrica Push SDK by Yandex. The AppMetrica Push SDK is a set of libraries for working with push notifications.
+version: 3.1.0
+homepage: https://appmetrica.io/about
+repository: https://github.com/appmetrica/push-rustore-provider-flutter-plugin
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+  flutter: ">=3.38.0"
+
+dependencies:
+  appmetrica_push_plugin:
+    version: ^3.0.0
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  appmetrica_push_plugin:
+    path: ../appmetrica_push_plugin
+
+dev_dependencies:
+  flutter_lints: ^2.0.3
+  build_runner: ^2.3.3
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.appmetrica.analytics.push.rustore.flutter
+        pluginClass: AppMetricaPushRustoreProviderPlugin

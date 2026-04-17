@@ -1,0 +1,49 @@
+group = "io.appmetrica.analytics.push.rustore.flutter"
+version = "3.1.0"
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.2.0")
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: "com.android.library"
+
+android {
+    if (project.android.hasProperty("namespace")) {
+        namespace = "io.appmetrica.analytics.push.rustore.flutter"
+    }
+    buildToolsVersion "36.0.0"
+    compileSdkVersion 36
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 36
+
+        proguardFiles("proguard/proguard-rules.pro")
+        consumerProguardFiles("proguard/consumer-rules.pro")
+    }
+}
+
+dependencies {
+    implementation("io.appmetrica.analytics:push-provider-api:4.3.0")
+    implementation("io.appmetrica.analytics:push-provider-rustore:4.3.0")
+    implementation("io.appmetrica.analytics.push.flutter:appmetrica_push_plugin")
+}

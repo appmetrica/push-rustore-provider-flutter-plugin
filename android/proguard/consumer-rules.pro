@@ -1,0 +1,4 @@
+-dontwarn io.appmetrica.analytics.push.rustore.flutter.**
+-keeppackagenames io.appmetrica.analytics.push.rustore.flutter.**
+-keep class io.appmetrica.analytics.push.rustore.flutter.** { *; }
+-keep enum io.appmetrica.analytics.push.rustore.flutter.** { *; }
