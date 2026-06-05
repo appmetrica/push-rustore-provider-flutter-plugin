@@ -1,6 +1,10 @@
 ## 3.1.0
 
-* Technical release
+- Technical release
+
+## 3.0.1
+
+- Technical release
 
 ## 3.0.0
 
