@@ -3,6 +3,10 @@
 * Versions are sorted by semver (newest to oldest)
 ```
 
+## `3.2.0`
+
+- Technical release
+
 ## `3.1.0`
 
 - Technical release
