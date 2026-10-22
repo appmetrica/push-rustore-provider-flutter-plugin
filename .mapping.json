@@ -19,5 +19,6 @@
   "android/src/main/java/io/appmetrica/analytics/push/rustore/flutter/RuStorePushProviderFactory.java":"mobile/metrika/flutter/appmetrica_push_rustore_provider_plugin/android/src/main/java/io/appmetrica/analytics/push/rustore/flutter/RuStorePushProviderFactory.java",
   "lib/appmetrica_push_rustore_provider_plugin.dart":"mobile/metrika/flutter/appmetrica_push_rustore_provider_plugin/lib/appmetrica_push_rustore_provider_plugin.dart",
   "lib/src/rustore_push_provider.dart":"mobile/metrika/flutter/appmetrica_push_rustore_provider_plugin/lib/src/rustore_push_provider.dart",
-  "pubspec.yaml":"mobile/metrika/flutter/appmetrica_push_rustore_provider_plugin/pubspec.yaml"
+  "pubspec.yaml":"mobile/metrika/flutter/appmetrica_push_rustore_provider_plugin/pubspec.yaml",
+  "test/appmetrica_push_rustore_provider_plugin_test.dart":"mobile/metrika/flutter/appmetrica_push_rustore_provider_plugin/test/appmetrica_push_rustore_provider_plugin_test.dart"
 }
